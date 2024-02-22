@@ -1,0 +1,27 @@
+*{
+ margin: 0;
+padding: 0;
+}
+body{
+ font-family:"Poppins", sans-serif ;
+ background-image:url("../imagens/uma-linda-mesa-em-um-bar-com-um-bar-ao-fundo_856434-117.avif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ width: auto;
+transition: all 1s linear;
+overflow: hidden; 
+color: aliceblue;
+}
+
+.wrap-everthing{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 4vh;
+height: 100%;
+width: 100%;
+
+
+}
