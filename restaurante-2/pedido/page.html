@@ -26,31 +26,43 @@
       </div>
       <button  type="button" class="btn btn-outline-dark" onclick="começar()">começar</button>
 
-      <div id="select-dic">
+      <div id="selects-dic">
             <h2>Olá,  <span id="nomeprint"> vamos começar o seu pedido</span></h2>
+
             <h2>Pratos</h2>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example"  id="select prato"> 
               <option selected>selecione um prato</option>
               <option value="1">Prato feito</option>
               <option value="2">Prato de strogonoff</option>
               <option value="3">Prato vegano</option>
             </select>
+
             <h2>bebidas</h2>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" id="select bebida">
               <option selected>selecione uma bebida</option>
               <option value="1">agua</option>
               <option value="2">refrigerante</option>
               <option value="3">suco de laranja</option>
             </select>
+
             <h2>sobremesas</h2>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" id="select sobremesa">
               <option selected>selecione uma sobremesa</option>
               <option value="1">torta de morango</option>
               <option value="2">Pudim</option>
               <option value="3">tiramissu</option>
             </select>
-        </div>
-     </div>
 
-    </body>
+           <div>
+         <button class="btn btn-sucess" type="button" onclick="calculartotal()">fazer pedido</button>
+         <button class="btn btn-sucess" type="button" onclick="limpar()">limpar</button>
+           </div>
+           
+          <div>
+          <span class="badge bg-primary">total:</span>
+          <span class="badge bg-secondary" id="resultadox'"></span>
+           </div>
+
+     </div>
+  </body>
 </html>
